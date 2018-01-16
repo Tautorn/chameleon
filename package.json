@@ -30,6 +30,8 @@
     "webpack-dev-server": "^2.11.0"
   },
   "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "styled-components": "^2.4.0"
   }
 }
