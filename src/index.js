@@ -1,4 +1,9 @@
-import React from 'react'
-import { render } from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-render(global.document.querySelector('#root'))
+import Palette from './palette' 
+
+ReactDOM.render(
+  <Palette />,
+  document.getElementById('root')
+);
